@@ -22,6 +22,12 @@ components:
     - pageModels/pda_smart_inbox-descriptor.yaml
     - pageModels/pda_task_details-descriptor.yaml
   fragments:
+    - fragments/entando_keycloak_check-descriptor.yaml
+    - fragments/entando_pda_css_reset-descriptor.yaml
+    - fragments/entando_pda_header-descriptor.yaml
+    - fragments/entando_pda_import_react-descriptor.yaml
+    - fragments/entando_pda_shared_css_js-descriptor.yaml
+    - fragments/entando_pda_styles-descriptor.yaml
 #    - fragments/pda_connections-descriptor.yaml
 #    - fragments/pda_login_buttons-descriptor.yaml
 #    - fragments/pda_overtime_graph-descriptor.yaml
